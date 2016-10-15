@@ -1,0 +1,125 @@
+nav {
+	height: 80px;
+	width: 100%;
+	background-color: #a8a8a8;
+	position: fixed;
+	text-align: right;	
+
+}
+
+.logo {
+	float: left;
+	width: 200px;
+	margin-top: 18px;
+	position: relative;
+
+}
+
+ul {
+	margin-right: 10px;
+}
+
+li {
+	display: inline;
+	margin-top: 18px;
+	padding-right: 10px;
+	font-size: 30px;
+}
+
+
+.container1 {
+	top: 130px;
+	left: 70px;
+	position: absolute;
+	display: inline;
+}
+
+input {
+	font-size: 30px;
+	border-radius: 7px;
+	width: 500px;
+	border-color: black;
+	border-width: 1px;
+	height:35px;
+}
+
+.search {
+	height: 35px;
+	width: 35px;
+	border-radius: 7px;
+	border: 1px solid black;
+	position: relative;
+	left: 507px;
+	bottom: 38px;
+
+}
+
+.glass {
+	width: 25px;
+	margin-left: 4px;
+	margin-top: 4px;
+}
+
+.container2{
+	position: absolute;
+	border: 1px solid black;
+	border-radius: 7px;
+	top: 200px;
+	left: 70px;
+
+}
+
+.container2, .results{
+	height: 40px;
+}
+
+.results{
+		display: inline-block;
+		padding: 0 5px 0 5px;
+		line-height: 40px;
+		vertical-align: middle;
+
+}
+
+.prev, .pages {
+	border-right: 1px solid black;
+}
+
+.container3{
+	position: absolute;
+	top: 250px;
+	left: 70px;
+	color: #bcbcbc;
+}
+
+.job{
+	font-weight: bold;
+}
+
+a.navlink:link{
+	color: black;
+	text-decoration: none;
+}
+
+a.navlink:hover{
+	color: blue;
+	text-decoration: none;
+}
+
+a.joblink:link{
+	text-decoration: none;
+}
+
+a.joblink:hover{
+	text-decoration: underline;
+}
+
+a.navigation:link{
+	text-decoration: none;
+	color: black;
+}
+
+a.navigation:hover{
+	text-decoration: none;
+	color:blue;
+}
